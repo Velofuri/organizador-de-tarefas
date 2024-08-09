@@ -42,7 +42,8 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Tarefas</Text>
+      <Text style={styles.title}>Varejão das Bebidas</Text>
+      <Text style={styles.subTitle}>Tarefas</Text>
 
       <View style={styles.containerInput}>
         <TextInput
@@ -77,9 +78,17 @@ const styles = StyleSheet.create({
   },
   title: {
     fontWeight: 'bold',
-    fontSize: 24,
-    color: '#FFF',
+    fontSize: 28,
+    color: '#c32113',
     marginTop: '5%',
+    paddingStart: '5%',
+    marginBottom: 12,
+  },
+  subTitle: {
+    fontWeight: 'bold',
+    fontSize: 20,
+    color: '#FFF',
+    marginTop: '1%',
     paddingStart: '5%',
     marginBottom: 12,
   },
